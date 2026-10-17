@@ -109,8 +109,7 @@ public class Frota {
                 if (dados[0].equalsIgnoreCase("Carro")) {
                     Carro c = new Carro(dados[1], dados[2], dados[3], Double.parseDouble(dados[4]), Double.parseDouble(dados[5]));
                     total += c.calcularCustoManutencao();
-                } else if (dados[0].equalsIgnoreCase("Moto")
-                        || dados[0].equalsIgnoreCase("Mota")) {
+                } else if (dados[0].equalsIgnoreCase("Moto") || dados[0].equalsIgnoreCase("Mota")) {
                     Mota m = new Mota(dados[1], dados[2], dados[3], Double.parseDouble(dados[4]), Double.parseDouble(dados[5]));
                     total += m.calcularCustoManutencao();
                 }
