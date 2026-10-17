@@ -79,7 +79,6 @@ public class Frota {
                 String[] dados = linha.split(";");
 
                 if (dados.length >= 4 && dados[2].trim().equalsIgnoreCase(marca.trim())) {
-
                     System.out.println(linha);
                     encontrado = true;
                 }
